@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: employee-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/studentdb
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
