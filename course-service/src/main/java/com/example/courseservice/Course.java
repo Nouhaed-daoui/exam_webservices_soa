@@ -1,4 +1,8 @@
-import javax.persistence.*;
+package com.example.courseservice;
+
+import jakarta.persistence.*;
+
+//import javax.persistence.*;
 import java.util.List;
 
 @Entity

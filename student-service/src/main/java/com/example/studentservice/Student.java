@@ -1,4 +1,8 @@
-import javax.persistence.*;
+package com.example.studentservice;
+
+import jakarta.persistence.*;
+
+//import javax.persistence.*;
 
 @Entity
 @Table(name = "student")
